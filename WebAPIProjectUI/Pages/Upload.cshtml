@@ -1,0 +1,56 @@
+﻿@page
+@model WebAPIProjectUI.Pages.UploadModel
+@{
+    ViewData["Title"] = "Upload Music";
+}
+<div class="container p-5 fw-bold">
+
+    
+
+    <form method="post" enctype="multipart/form-data" class="pb-5 ps-5 pe-5 pt-3 bg-light shadow-lg">
+        <h1 class="mb-3">Upload Your Song!</h1>
+        <div class="row row-cols-log-1">
+            <div class="col col-12 col-lg-6 m-auto">
+                <div class="form-group">
+                    <label class="form-label">Song Title</label>
+                    <div class="mb-3">
+                        <input asp-for="Title" type="text" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-6 m-auto">
+                <div class="form-group">
+                    <label class="form-label">Artist Name</label>
+                    <div class="mb-3">
+                        <input asp-for="ArtistName" type="text" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-6 m-auto">
+                <div class="form-group">
+                    <label class="form-label">Album Title</label>
+                    <div class="mb-3">
+                        <input asp-for="AlbumTitle" type="text" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-6 m-auto">
+                <div class="form-group">
+                    <label class="form-label">Mp3 File</label>
+                    <div class="mb-3">
+                        <input asp-for="SongFile" type="file" accept=".mp3" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-6 m-auto">
+                <div class="form-group">
+                    <div class="mb-1 mt-3">
+                        <button type="submit" class="btn btn-success shadow w-100 fw-bold"><i class="far fa-plus-square"></i> Upload!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+

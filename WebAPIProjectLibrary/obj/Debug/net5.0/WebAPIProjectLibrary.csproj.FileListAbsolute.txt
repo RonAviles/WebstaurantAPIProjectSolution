@@ -1,0 +1,12 @@
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\bin\Debug\net5.0\WebAPIProjectLibrary.deps.json
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\bin\Debug\net5.0\WebAPIProjectLibrary.dll
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\bin\Debug\net5.0\ref\WebAPIProjectLibrary.dll
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\bin\Debug\net5.0\WebAPIProjectLibrary.pdb
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.csproj.AssemblyReference.cache
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.AssemblyInfoInputs.cache
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.AssemblyInfo.cs
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.dll
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\ref\WebAPIProjectLibrary.dll
+C:\Users\ronal\Documents\Code\WebAPIProjectSolution\WebAPIProjectLibrary\obj\Debug\net5.0\WebAPIProjectLibrary.pdb

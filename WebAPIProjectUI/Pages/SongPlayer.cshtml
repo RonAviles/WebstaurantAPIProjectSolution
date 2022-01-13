@@ -1,0 +1,16 @@
+﻿@page
+@using WebAPIProjectUI.Helpers;
+
+@model WebAPIProjectUI.Pages.SongPlayerModel
+@{
+    ViewData["Title"] = "Song Player";
+}
+<div class="container">
+    <div class="row ">
+        <div style=" min-height:35vh; background: rgb(2,0,36); background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(56,101,44,1) 0%, rgba(0,0,0,1) 99%);" class=" col-12 col-lg-7 m-auto border rounded-3 mb-3 shadow ps-3 pe-3 pt-2 pb-2 text-light">
+            <h1 class="text-start ps-3 mb-3 mt-3">@Model.Song.Title &#9835;</h1>
+            <p class="ps-3 pe-3 small d-flex justify-content-between mb-3"><span class="text-start h4">Artist: @Model.Song.Artist.Name</span><span class="text-end h4">Album: @Model.Song.Album.Title</span></p>
+            <audio class="mt-2" style="width:100%" controls src="@Model.Song.FileData.DecodeSong()"></audio>
+        </div>
+    </div>
+</div>

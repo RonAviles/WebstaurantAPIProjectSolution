@@ -1,0 +1,28 @@
+﻿@page
+@using WebAPIProjectUI.Helpers;
+
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Music Home";
+}
+
+<div class="text-center">    
+    <div class="container">
+        <div class="col-12 col-lg-8 m-auto d-flex justify-content-end">
+            <a asp-page="/Upload" class=" btn btn-success shadow"><i class="far fa-plus-square"></i> Upload Song</a>
+        </div>        
+        <h1 class="display-4 col-12">Music Home</h1>
+        <div class="row">            
+                @foreach (var song in Model.AllSongs)
+                {
+                    <div class="col-12 col-lg-7 m-auto border rounded-3 mb-3 bg-dark shadow ps-3 pe-3 pt-2 pb-2 text-light">
+                        <h4 class="text-start ps-3 "><a style="text-decoration: none; color: #90EE90" asp-page="/SongPlayer" asp-route-id="@song.Id">@song.Title</a> &#9835;</h4>
+                        <p class="h6 ps-3 pe-3 small d-flex justify-content-between"><span class="text-start">Artist: @song.Artist.Name</span><span class="text-end">Album: @song.Album.Title</span></p>
+                        <audio style="width:100%" controls src="@song.FileData.DecodeSong()"></audio>
+                    </div>
+                }            
+        </div>
+    </div>
+</div>
+
